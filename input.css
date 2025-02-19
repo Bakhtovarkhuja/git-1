@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.qw{
+    width: 80%;
+    margin: auto;
+}
+.as{
+    width: 86%;
+    margin: auto;
+}
+.gridd{
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,160px);
+    gap: 20px;
+}
+span{
+    color: #FF7715;
+}
+.griddd{
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,151px);
+    gap: 20px;
+}
+.gridddd{
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,231px);
+    gap: 20px;
+}
+.bgg{
+    background-image: url(/1.svg);
+    background-repeat: no-repeat; 
+    background-position: 300px 50px;
+}
+.bggg{
+    background-image: url(/5.svg);
+    background-repeat: no-repeat; 
+    background-position: 215px 0px;
+}
+.zx{
+    width: 78%;
+    margin: auto;
+}
